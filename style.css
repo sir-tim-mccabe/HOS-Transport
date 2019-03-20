@@ -37,6 +37,10 @@ h4 {
     font-size: 6vw;
 }
 
+h5 {
+    font-size: 5vw;
+}
+
 h6, figcaption {
     font-weight: lighter;
     font-size: 5vw;
@@ -49,6 +53,10 @@ h6, figcaption {
 
     h4 {
         font-size: 2.5em;
+    }
+
+    h5 {
+        font-size: 2.2em;
     }
 
     h6, figcaption {
@@ -166,10 +174,6 @@ section p {
 
 article {
     padding: 1em;
-}
-
-h5 {
-    font-size: 2.2em;
 }
 
 footer {
