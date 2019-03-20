@@ -30,7 +30,6 @@ h1 {
 
 h4, h5 {
     letter-spacing: 0.15em;
-    font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
@@ -64,8 +63,8 @@ h6, figcaption {
     }
 }
 
-h1, h4, strong {
-    font-family: 'Nunito Sans Black', sans-serif;
+h1, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3, h6, figcaption, p {
