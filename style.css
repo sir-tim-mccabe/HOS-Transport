@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+body, figure:nth-child(2n) {
+    background-color: #fafafa;
+}
+
+section {
+    padding: 6em 0;
+}
+
+header {
+    padding: 1em 0;
+}
+
+@media only screen and (min-width: 1020px) {
+    header, section, footer {
+        width: 1000px;
+        padding-left: calc(50% - 500px);
+        padding-right: calc(50% - 500px);
+    }
+}
+
+h1 {
+    font-size: 12vw;
+}
+
+h4, h5 {
+    letter-spacing: 0.15em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-size: 6vw;
+}
+
+h6, figcaption {
+    font-weight: lighter;
+    font-size: 5vw;
+}
+
+@media only screen and (min-width: 700px) {
+    h1 {
+        font-size: 5.5em;
+    }
+
+    h4 {
+        font-size: 2.5em;
+    }
+
+    h6, figcaption {
+        font-size: 2em;
+    }
+}
+
+h1, h4, strong {
+    font-family: 'Nunito Sans Black', sans-serif;
+}
+
+h3, h6, figcaption, p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+em {
+    font-style: normal;
+    color: #E94615;
+}
+
+.banner {
+    background-image: url(image/road.jpg);
+    height: 30em;
+    line-height: 30em;
+    background-attachment: fixed;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inverted * {
+    color: #fffffff0;
+}
+
+.strip {
+    background-image: url(image/asphalt.jpg);
+}
+
+h1, h3, p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.figures {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1em 5%;
+    margin-top: -14em;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    .figures {
+        flex-direction: row;
+    }
+
+    .contact {
+        grid-template-columns: 50% 50%;
+    }
+
+    .contact > p, .contact > h3, .span-2 {
+        grid-column-start: span 2;
+    }
+}
+
+figure {
+    padding: 4em;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+figure {
+    background-color: #e0e0e0;
+}
+
+.truck {
+    height: 3em;
+    margin: 1em;
+}
+
+h3 {
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+p {
+    display: block;
+}
+
+.safety-icon {
+    height: 5em;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+section p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin: 0.3em 0.3em 0.8em 0.3em;
+}
+
+.inverted {
+    background-color: #222222;
+}
+
+article {
+    padding: 1em;
+}
+
+h5 {
+    font-size: 2.2em;
+}
+
+footer {
+    margin-top: 1px;
+}
+
+footer p {
+    font-size: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
