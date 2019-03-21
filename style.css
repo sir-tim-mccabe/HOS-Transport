@@ -63,7 +63,7 @@ h6, figcaption {
     }
 }
 
-h1, h4, h5, strong {
+h1, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,11 +71,15 @@ h3, h6, figcaption, p {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+h1, h4 {
+    text-transform: uppercase;
+}
+
 section {
     text-align: center;
 }
 
-em {
+strong {
     font-style: normal;
     color: #E94615;
 }
