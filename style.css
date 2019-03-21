@@ -94,7 +94,7 @@ strong {
     background-size: cover;
 }
 
-.inverted * {
+.banner *, .contact *, footer * {
     color: white;
     opacity: 0.95;
 }
@@ -172,7 +172,7 @@ section p {
     margin: 0.3em 0.3em 0.8em 0.3em;
 }
 
-.inverted {
+.contact, footer {
     background-color: #222222;
 }
 
