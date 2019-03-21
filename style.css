@@ -131,8 +131,12 @@ h1, h3, p {
         grid-template-columns: 50% 50%;
     }
 
-    .contact > p, .contact > h3, .span-2 {
+    .contact > * {
         grid-column-start: span 2;
+    }
+
+    .phone {
+        grid-column-start: span 1;
     }
 }
 
